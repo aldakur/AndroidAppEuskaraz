@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="euskaraz.androidapp.aldakur.net.androidappeuskaraz.MainActivity">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/hello"
+        android:textSize="40dp"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:text="Euskara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_language_eu"
+        style="@style/Widget.AppCompat.Button" />
+
+    <Button
+        android:text="Español"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_language_es"
+        style="@style/Widget.AppCompat.Button" />
+
+    <Button
+        android:text="Ingles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_language_en"
+        style="@style/Widget.AppCompat.Button" />
+</LinearLayout>
